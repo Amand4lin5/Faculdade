@@ -6,8 +6,11 @@ Este tutorial irá te guiar através do processo de configuração e execução 
 Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 
 1.Python 3.8+
+
 2.pip (gerenciador de pacotes Python)
+
 3.FastAPI e Uvicorn (servidor ASGI para rodar a API)
+
 4.Um ambiente virtual (opcional, mas recomendado)
 
 ## Passo 1: Clonar o Repositório
