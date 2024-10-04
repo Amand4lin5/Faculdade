@@ -14,12 +14,12 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 1.Clone o repositório que contém o código da API. Abra o terminal e execute o comando abaixo:
 
 ~~~~shell
-docker compose up -d
-~~~~
+[docker compose up -d
+](https://github.com/Amand4lin5/Faculdade.git)~~~~
 
 2.Navegue para o diretório do projeto:
 ~~~~shell
-docker compose up -d
+cd seu-repositorio
 ~~~~
 
 
