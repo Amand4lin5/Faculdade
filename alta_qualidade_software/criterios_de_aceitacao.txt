@@ -1,0 +1,29 @@
+Atualização de Taxas de Câmbio:
+O conversor deve atualizar as taxas de câmbio em tempo real ou em intervalos regulares para garantir que os valores sejam precisos e atualizados.
+
+Suporte a Múltiplas Moedas:
+O conversor deve suportar uma variedade de moedas (pelo menos 50) para permitir conversões entre diferentes países.
+
+Conversão Simultânea:
+O usuário deve ser capaz de realizar várias conversões simultaneamente, permitindo a conversão de diferentes quantidades ou moedas ao mesmo tempo.
+
+Histórico de Conversão:
+O conversor deve fornecer uma funcionalidade para que o usuário visualize um histórico das conversões realizadas, incluindo a data, as moedas envolvidas e os valores convertidos.
+
+Interface Amigável:
+A interface do usuário deve ser intuitiva e fácil de usar, permitindo que até mesmo usuários sem experiência técnica possam realizar conversões sem dificuldades.
+
+Tratamento de Erros:
+O conversor deve exibir mensagens de erro claras e compreensíveis caso o usuário insira valores inválidos (como caracteres não numéricos) ou tente converter uma moeda não suportada.
+
+Acessibilidade:
+O conversor deve ser acessível a todos os usuários, incluindo aqueles com deficiências, seguindo diretrizes de acessibilidade da web (WCAG).
+
+Configurações de Preferências:
+O usuário deve poder salvar suas preferências de moeda de origem e destino para facilitar conversões futuras.
+
+Modo Offline:
+O conversor deve oferecer uma funcionalidade que permita o uso de taxas de câmbio previamente armazenadas para conversões mesmo quando o usuário estiver offline.
+
+Feedback do Usuário:
+O conversor deve incluir uma opção para que os usuários forneçam feedback sobre a precisão das taxas de câmbio ou relatem problemas técnicos.
