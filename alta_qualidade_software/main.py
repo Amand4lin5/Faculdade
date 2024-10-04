@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Form
+from fastapi import FastAPI, Form, HTTPException
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
@@ -28,7 +28,10 @@ async def convert_currency(
     amount: float = Form(...)
 ):
     if from_currency not in exchange_rates or to_currency not in exchange_rates:
-        return {"error": "Moeda não suportada."}
+        raise HTTPException(status_code=400, detail=f"Moeda {from_currency} não suportada.")
+    
+    if amount <= 0:
+        raise HTTPException(status_code=400, detail="Quantidade inválida")
 
     # Cálculo da conversão
     converted_amount = (amount / exchange_rates[from_currency]) * exchange_rates[to_currency]
