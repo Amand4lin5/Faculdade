@@ -112,3 +112,14 @@ Se você usou um ambiente virtual, não se esqueça de desativá-lo após o uso.
 ~~~~shell
 deactivate
 ~~~~
+
+.
+.
+.
+
+### Para rodar o teste unitário, executar o comando:
+~~~~shell
+pytest test_main.py
+~~~~
+
+
