@@ -24,7 +24,20 @@ Este projeto tem como objetivo fazer a identificação e resolução dos bugs pr
 1. **Clone o repositório**:
 
     ```bash
-    git clone https://github.com/Amand4lin5/Faculdade.git
+# Clone o repositório sem fazer checkout imediato
+git clone --no-checkout https://github.com/Amand4lin5/Faculdade.git
+
+# Entre no repositório
+cd Faculdade
+
+# Habilite o sparse-checkout
+git sparse-checkout init --cone
+
+# Defina o diretório que você quer clonar
+git sparse-checkout set paradaobrigatoria2
+
+# Faça checkout para obter a pasta
+git checkout main  # ou o nome do branch desejado
     ```
 
 2. **Instale as dependências**:
@@ -46,6 +59,6 @@ Este projeto tem como objetivo fazer a identificação e resolução dos bugs pr
   
   ```bash
       python Calculadora.py
-    ```
+  ```
 
 
