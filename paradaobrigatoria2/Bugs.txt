@@ -1,0 +1,12 @@
+Aqui estão presentes alguns bugs identificados ao rodar o codigo
+
+1 - Função de soma esta retornando o resultado errado, por exemplo, ao tentar somar 5 + 5, o resultado é "Resultado: 15.0"
+demonstrando um erro presente na função, já que deveria ser 10.
+
+2 - A função fatorial retorna o valor 0, independente do input que é passado ao codigo.
+
+3 - A função ln aparece a mensagem de erro "AttributeError: module 'numpy' has no attribute 'ln'"
+
+4 - A função logaritmo a base de 10 retorna o valor errado
+
+5 - As funções seno, cosseno e tangente não constam no menu das funcionalidades do código
