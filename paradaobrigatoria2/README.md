@@ -45,7 +45,7 @@ Este projeto tem como objetivo fazer a identificação e resolução dos bugs pr
   Execute o código e teste a calculadora de uma forma corrigida
   
   ```bash
-  python Calculadora.py
+      python Calculadora.py
     ```
 
 
