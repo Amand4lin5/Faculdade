@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from src.Calculadora import fatorial, logaritmo_natural, logaritmo_base10, cosseno, seno, tangente, adicao
+from Faculdade.alta_qualidade_software.paradaobrigatoria2.src.Calculadora import fatorial, logaritmo_natural, logaritmo_base10, cosseno, seno, tangente, adicao
 import unittest
 
 class TestCalculadora(unittest.TestCase):
